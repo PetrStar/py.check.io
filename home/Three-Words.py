@@ -1,5 +1,5 @@
-import re
 def checkio(words: str) -> bool:
+    import re
     return bool(re.match(r'.*[a-zA-Z]+ [a-zA-Z]+ [a-zA-Z]+', words))
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
